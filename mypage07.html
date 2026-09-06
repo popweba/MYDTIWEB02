@@ -5,24 +5,34 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
+
   <style>
-    #p1{
+    #sau1 {
+      color: red;
+    }
+
+    #sau2 {
       color: blue;
+    }
+
+    .dti1 {
       text-align: center;
     }
-    #p2{
-      color: green;
-      text-align: center;
+
+    .dti2 {
+      text-decoration: overline dotted 5px salmon;
+    }
+    h1, .dti1, span{
+      background-color: yellow;
     }
   </style>
-  <link rel="stylesheet" href="/CSS/style04.css">
 </head>
 
 <body>
-  <h1 style="text-align: center;color: red;">Welcome to DTI-SAU (04)</h1>
-  <h1 style="text-align: center;color: rgb(0, 4, 255);">สวัสดีชาวโลก</h1>
-  <h3>MY ID: 6952D10001</h3>
-  <h3>MY NAME: Kankangwal Minkaew</h3>
+  <h1 id="sau1" class="dti1 dti2">Welcome to DTI-SAU (07)</h1>
+  <h1 id="sau2">สวัสดีชาวโลก</h1>
+  <h3 class="dti2">MY ID: 6952D10001</h3>
+  <h3 class="dti1">MY NAME: Kankangwal Minkaew</h3>
   <hr />
   <p>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi officia ut,
@@ -33,7 +43,7 @@
     laudantium. Labore, eius!
   </p>
   <hr />
-  <p>
+  <p class="dti2">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos,
     optio dicta? Reprehenderit, quas maiores quaerat laboriosam culpa sed.
     Nemo quo dolorum saepe ullam itaque accusamus maxime nobis eaque alias ea
@@ -42,7 +52,7 @@
   </p>
   <hr />
   <!-- HTML : Div Tag เปรี่ยบเสมือนกล่องเปล่าๆ ที่ยึดความกว้างเต็มพื้นที่ โดยเราสามารถเอาอะไรมาใส่ในกล่องก็ได้ (Block Tag) -->
-  <div>
+  <div class="dti1">
     <!-- HTML : Span Tag เปรี่ยบเสมือนกล่องเปล่าๆ ที่ยึดความกว้างเท่ากับเนื้อหาที่ใส่ในกล่อง (Inline Tag) -->
     <span>Created by: NinniN SAU</span>
     <br />
